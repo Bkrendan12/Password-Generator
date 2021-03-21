@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+  
   </head>
   <body>
-      
+
     <div class="wrapper">
       <header>
         <h1>Password Generator</h1>
@@ -31,6 +31,13 @@
         </div>
       </div>
     </div>
-   
+    <script src="./script/script.js"></script>
   </body>
 </html>
+
+//I've got my generate password button to pop up an input box asking 
+//how long the password should be, and if you enter nothing, or anything 
+//less than 8 or over 128, it tells you that doesn't qualify and restarts 
+//the function, but if you enter a word that is between 8 and 128 characters
+//it accepts it. Anyone know how to make the window.prompt only accept numbers?
+
