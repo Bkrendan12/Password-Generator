@@ -13,7 +13,7 @@ BROWSER WINDOW SCREENSHOT
 
 Tech/framework used
 
-This webpage was created using basic html and css. I used flexbox to design the pages layout, media queries and css variables.
+This webpage was created using basic html and css. I used flexbox to design the pages layout, media queries and css variables. 
 
 Built with
 
