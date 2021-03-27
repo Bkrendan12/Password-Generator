@@ -11,27 +11,35 @@ BROWSER WINDOW SCREENSHOT
 
 ![image](https://user-images.githubusercontent.com/59030105/112730418-d4a41c00-8f07-11eb-962a-b9ac8bc2f749.png)
 
-
-
 Tech/framework used
 
-This webpage was created using basic html and css. I used flexbox to design the pages layout, media queries and css variables. 
+This webpage was created using basic html, css and Javascript.
 
 Built with
 
---html --css
+--index.html --style.css --script.js
 
 How to use?
 
-This is a very standard and simple formatted "about me" page introducing myself and showcasing the projects I have created and worked on.
+This is a password generator that gives you a new randomized password for the user. It's just a demonstration, so you wont be able to use this password for anything outside of this page.
 
-When you open the webpage, You'll be greeted with a header at the top of the browser. Underneath is a very simple and intuitive navigation bar that allows you to automatically scroll to the section of the page you would like to view. The page includes a description about me, the projects I have created, a hobby of mine that explains other creative interests that tie to web design and a section where you can contact me via email, my github repositories and my social media pages.
+When you open the webpage, You'll have the option to click on the "generate password" button. It will then prompt you to give the desired length of your password and the number is required to be between 8 and 128 characters AND it can't be any other characters other than a number or you will get a message asking for a number between 8 and 128 or telling you to only include a number and cancel the prompt window which you will again need to click on the button to start over.
 
-And that's it! A page where you can get to know me and view the creative side of my personality.
+After you you choose your length correctly, you'll be prompted to choose to include lowercase letters, uppercase letters, numbers and special characters (in that order) in your generated password.
+
+the "ok" in your last prompt question, which will be if you want to include special characters will end the prompts and you'll be given your new password in the window.
+
+Link to webpage:
+
+[link-to-password-generator](https://bkrendan12.github.io/Password-Generator/)
+
+
 
 Contribute:
 
-If you'd like a simple layout to your "about me" page, you're more than welcome to use mine as a starting off template.
+I plan on adding more functionality to this like storing it in local storage and being able to use this new password outside of this site for use. 
+
+If you would like to do the same, youre welcome to use this as starter code.
 
 Credits include:
 
