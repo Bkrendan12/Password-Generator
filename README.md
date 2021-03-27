@@ -9,7 +9,7 @@ Screenshots
 
 BROWSER WINDOW SCREENSHOT
 
-![](./Password-Generator/assets/images/passwordGenerator_screenShot.png)
+![image](https://user-images.githubusercontent.com/59030105/112730333-65c6c300-8f07-11eb-9f6f-b36c5adcd09f.png)
 
 Tech/framework used
 
