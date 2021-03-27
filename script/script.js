@@ -19,7 +19,7 @@ function generatePassword() {
   let passwordLength = parseInt(prompt("How long do you want your password?"));
  
 // prompt user for user password length between 8-128 characters
-// see if you can combine both of these if statements in one
+//see if you can combine these if statements into one
  if (isNaN(passwordLength)) {
     alert("You need to use numbers!");
     return "";
@@ -28,7 +28,39 @@ function generatePassword() {
      alert("password must be more than 8 and less than 128");
      return "";
  }
-    };
+
+//  Password criteria variables to confirm what they want to use in the new password.
+  let includeLowercaseLetters = confirm("do you want to use lowercase letters?");
+  let includeUppercaseLetters = confirm("do you want to use uppercase letters?");
+  let includeNumbers = confirm("do you want to use numbers?");
+  let includeSpecialCharacters = confirm("Do you want to use special characters?");
+  
+  let masterArray = [];
+
+ if (includeLowercaseLetters === true) {
+    masterArray.push(...lowercaseLettersArray)
+  }
+  if (includeUppercaseLetters === true) {
+    masterArray.push(...uppercaseLettersArray)
+  }
+  if (includeNumbers === true) {
+    masterArray.push(...numbersArray)
+  }
+  if (includeSpecialCharacters === true) {
+    masterArray.push(...specialCharactersArray)
+  }
+
+  let password = ""; 
+
+//  while loop running the loop of the given password length chosen 
+  let i = 0;
+
+  while (i < passwordLength) {
+    i++;
+    password += masterArray[Math.floor(Math.random() * masterArray.length)];
+  };
+        return password;
+    }
     
     
 generateBtn.addEventListener("click", writePassword);{
